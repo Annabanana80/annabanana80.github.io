@@ -1,0 +1,11 @@
+.index {
+  background: linear-gradient(#FFEF38, #B2033F, #04A3CC);
+}
+.projects {
+  background: linear-gradient(#80FFC6, #800FC6, #80FF18);
+}
+#summary {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
