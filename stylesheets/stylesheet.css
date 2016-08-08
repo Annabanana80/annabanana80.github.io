@@ -19,16 +19,16 @@
   margin-right: auto
 }*/
 .about {
-  color: #0ff;
+  color: white;
 }
 .project{
   color: white;
-  font-size:20px;
+  font-size:20px
 }
 header {
   text-align: center;
   background-size: cover;
-  color: #0ff;
+  color: white;
 }
 footer {
   text-align: center;
@@ -43,7 +43,7 @@ footer {
 }
 #index {
   margin: 40px 0px 0px 0px;
-  border: 7px solid #0ff;
+  border: 7px solid white;
   border-radius: 20px;
 }
 #anna {
@@ -51,6 +51,8 @@ footer {
   background: rgba(0,0,0,0.5);
 }
 .menu{
-  color: #0ff;
+  color: white;
 }
-
+.description {
+  color:white;
+}
