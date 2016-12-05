@@ -19,24 +19,24 @@
       </ul>
     </div>
     </nav>
-  <?php
-  if (isset($_REQUEST['email']))  {
+<!--   <?php
+  // if (isset($_REQUEST['email']))  {
   
   //Email information
-  $admin_email = "SandersonAE@yahoo.com";
-  $email = $_REQUEST['email'];
-  $subject = $_REQUEST['subject'];
-  $message = $_REQUEST['message'];
+  // $admin_email = "SandersonAE@yahoo.com";
+  // $email = $_REQUEST['email'];
+  // $subject = $_REQUEST['subject'];
+  // $message = $_REQUEST['message'];
   
   //send email
-  mail($admin_email, "$subject", $message, "From:" . $email);
+  // mail($admin_email, "$subject", $message, "From:" . $email);
   
   //Email response
-  echo "Thank you for contacting me!";
+  // echo "Thank you for contacting me!";
   }
   
   //if "email" variable is not filled out, display the form
-  else  {
+  // else  {
 ?>
 <?php
 }
@@ -65,11 +65,11 @@
           <i class="material-icons right">send</i>
       </button> 
       </form>
-    </div>
- <!-- <div class="center">
+    </div> -->
+<div class="center">
  	<h2 class="email"><a href="mailto:SandersonAE@yahoo.com"> Email: SandersonAE@yahoo.com</a></h2>
 	<h2 class="email"><a href="mailto:anna.sanderson@csuglobal.edu"> Alt Email: anna.sanderson@csuglobal.edu</a></h2>
-</div>   -->
+</div>   
 <!-- <img src="http://i.imgur.com/DfxdPT3.jpg?1" /> -->
 
 
