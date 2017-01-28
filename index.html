@@ -1,54 +1,109 @@
-<!DOCTYPE <html>
-<head>      
-    <meta name="viewport" content="width=device-width, initial-scale=1">      
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script> 
-    <script type="text/javascript" src="app.js"></script>
-    <title>Home</title>          
-  </head>
-  <body class = "index">
-    <header>
-      <a href="http://imgur.com/KlLJyAV"><img src="http://i.imgur.com/KlLJyAV.jpg?2" id="index" title="source: imgur.com" /></a>
-      <h1>Anna Sanderson</h1>
-      <h4>Web Developer, Former Portfolio Manager, Veteran, Artist</h4>
-      <ul id="anna" class="center">
-        <li class="anchor"><a href="projects.html" class="menu">Projects</a></li>
-        <li class="anchor"><a href="contact.html" class="menu">Contact Me</a></li>
-      </ul>
-    </header>
-    <div class="container">
-    <h2 class="about">About Me</h2>
-    <p class="about">My name is Anna Sanderson. I am originally from Washington State and currently live in Florida. In a former life, I served in the United States Air Force for four years and was in the financial services industry for ten years. In April of 2016, I decided to enroll in Genaral Assembly's Web Development Immersive program.</p>
-    <br>
-    <p class="about">On the menu bar, you will see my projects and my contact information. Below are links to my resume, GitHub repository, and my LinkedIn page. I look forward to meeting you!</p>
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
 
-    </div>
-    <footer>
-    <h2 class="center">
-      <a href="https://docs.google.com/a/csuglobal.edu/document/d/19sUeQWHtcHx8z5uwN44lVRCbaFfmVMXJlTXXEF91y38/pub" class="about">Resume</a> 
-      <a href="https://github.com/Annabanana80" class="about">GitHub</a> 
-      <a href="https://www.linkedin.com/in/asanderson1" class="about">LinkedIn</a></h2>
-    </footer>
-    
-  <!-- <nav>
-    <div class="nav-wrapper #000000 black">
-      <a href="#" class="brand-logo center">Anna Sanderson</a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact Me</a></li>
-      </ul>
-    </div>
-  </nav>
-  <div class= "container">
-  <div class="valign-wrapper" id="summary">
-    <img src="http://i.imgur.com/KlLJyAV.jpg?2" class="circle responsive-img z-depth-5"/><h5 class="valign center-block">My name is Anna and I am a former portfolio manager turned web developer.</h5>
-  </div> -->
-  <!-- <div class="vertical align"><img src="http://i.imgur.com/KlLJyAV.jpg?2"/></div> -->
-  <!-- <div class="card-panel teal lighten-2 vertical-align"><h3>Hello World!</h3></div> -->
-   </div>
-   </body>
-</html>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <nav>
+        <div class="nav-wrapper black container">
+          <a href="#!" class="brand-logo">WELCOME</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <header>
+        <div>
+          <img src="images/profile.jpg" alt="profile pic" id="profilePic">
+          <h1>ANNA SANDERSON</h1>
+          <hr>
+          <h3>FULL STACK WEB DEVELOPER</h3>
+        </div>
+      </header>
+      <section id="about">
+      <div class="container">
+        <div class="row">
+          <h2 class="center">ABOUT</h2>
+          <hr>
+          <div class="col s6">
+            <p>Thank you for visiting my page. My name is Anna Sanderson and I'm 
+          a web developer. I am originally from Washington State and currently live in Florida. In a former life, I served in the United States Air Force for four years and was in the financial services industry for ten years. In April of 2016, I decided to enroll in Genaral Assembly's Web Development Immersive program. Since graduation, I have had the privilage of working on a website for a local logistics company, have built a few projects in my spare time, and participated in a QA project for General Assembly's revamped courses.</p>
+          </div>
+          <div class="col s6">
+            <p> If you click on "Portfolio" on the menu bar or scroll down, you will be taken to a sampling of some of my projects. The Tic Tac Toe game was built with JavaScript, HTML, and CSS. The hover image is of a Dalek because I am a Doctor Who fan. The second project is called Recipe Saver. This app was made using Ruby on Rails, CSS, HTML, Materialize, and jQuery. It enables users to save and add their recipes. This app is also mobile friendly.</p>
+          </div>
+        </div>
+        </div>            
+      </section>
+      <section id="portfolio">
+        <div class="container">
+        <h2 class="center">PROJECTS</h2>
+        <hr>
+          <div class="carousel carousel-slider">
+            <a class="carousel-item" href="http://www.annasanderson.us/Games/"><img src="images/tictactoe.png"></a>
+            <a class="carousel-item" href="https://recipe-saver.herokuapp.com/recipes"><img src="images/recipesaver.jpg"></a>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+        <h2 class="center">Contact Me</h2>
+          <hr>
+          <form action="https://formspree.io/SandersonAE@yahoo.com"
+          method="POST">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Name" id="name" name="name">
+            <label for="email">Email Address</label>
+            <input type="text" placeholder="Email Address" id="email" name="_replyto">
+            <input type="hidden" name="_subject" value="New submission!" />
+            <label for="phone">Phone Number</label>
+            <input type="text" placeholder="Phone Number" id="phone" name="phone">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Message" name="message"></textarea>
+            <button type="submit" value="Send" id="button">Send</button>
+          </form>
+        </div>
+      </section>
+    </br>
+      <footer class="page-footer black">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">I look forward to meeting you!</h5>
+                <p class="grey-text text-lighten-4">To the right are links to my resume, LinkedIn page, and GitHub.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <span>
+                  <a href="https://docs.google.com/document/d/1Qtrw_MEFjujSWoWuhpo2dvizX-WRBmeuqOvVPggEpZk/pub" class="#ffffff white"><i class="fa fa-file-pdf-o"></i></a>
+                  <a href="https://www.linkedin.com/in/asanderson1"><i class="fa fa-linkedin"></i></a>
+                  <a href="https://github.com/Annabanana80"><i class="fa fa-github"></i></a>
+                </span>
+              </div>
+            </div>
+          </div>
+          </div>
+        </footer>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+      <script type="text/javascript" src="main.js"></script>
+    </body>
+  </html>
+        

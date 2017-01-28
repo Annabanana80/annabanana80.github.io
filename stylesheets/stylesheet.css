@@ -1,74 +1,59 @@
-.index {
-  background: linear-gradient(#FF512F, #DD2476);
+/*main*/
+hr {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
 }
-.projects {
-  background: linear-gradient(#80FFC6, #800FC6, #80FF18);
+img{
+  max-width:100%;
 }
-.contact {
-  width:100%;
-  height:auto;
-  background-image: url("http://i.imgur.com/sLMBTom.jpg");
-  /*background: linear-gradient(#30CCAE, #709991, #55FF7F);
-  color: white;*/
-  background-size:cover;
+#portfolio,header{
+  background-color: #CAD4FF;
+  color:black; 
 }
-/*.carousel {
-  height: 800px;
-  padding:0px;
-  margin:0px;
-}*/
-/*#summary {
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}*/
-.about {
-  color: white;
+section{
+  padding-top:25px;
+  padding-bottom:25px;
 }
-.project{
-  color: white;
-  font-size:20px
+/*nav*/
+
+nav{
+  background-color:black;
+}
+/*header*/
+#profilePic{
+  width:240px;
+  height:320px;
 }
 header {
-  text-align: center;
-  background-size: cover;
-  color: white;
+  text-align:center;
+  padding:6rem 0 2.5rem;
 }
-footer {
-  text-align: center;
-  background-size: cover;
-  color: #0ff;
-  padding: 10px;
-  background: rgba(0,0,0,0.5);
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1.25rem;
 }
-.anchor {
-  display: inline;
-  padding: 0px 10px 0px 10px;
+h2{
+  font-size: 2.5rem;
 }
-#index {
-  margin: 40px 0px 0px 0px;
-  border: 7px solid white;
-  border-radius: 20px;
+h3 {
+  font-size: 2rem;
 }
-#anna {
-  padding: 10px;
-  background: rgba(0,0,0,0.5);
-}
-.menu{
-  color: white;
-}
-.description {
+/*contact form*/
+button{
+  background-color:black;
   color:white;
 }
-a {
-  color:white;
+label{
+  color:black;
 }
-input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
-  border-bottom:1px solid black;
+/*footer*/
+footer a {
+  color: white;
+  font-size: 2rem;
+  margin-right: 1rem;
 }
-.input-field label {
-  color: black;
-}
-.btn{
-  background-color: black;
-}
+
