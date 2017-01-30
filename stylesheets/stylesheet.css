@@ -24,6 +24,9 @@ section{
 nav{
   background-color:black;
 }
+nav ul a:hover{
+  color:#CAD4FF;
+}
 /*header*/
 #profilePic{
   width:240px;
